@@ -1,7 +1,9 @@
 :root {
 	--padding: 2rem;
+	--padding-small: 1rem;
 	--scrollbar-width: 10px;
 	--footer-height: 30px;
+	--border-radius: 5px;
 
 	--primary-dark: #242424;
 	--secondary-dark: rgb(55, 54, 54);

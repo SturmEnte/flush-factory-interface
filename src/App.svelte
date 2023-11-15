@@ -1,8 +1,9 @@
 <script lang="ts">
+	import Game from "./lib/Game.svelte";
 </script>
 
 <div id="wrapper">
-	<main>Hello World</main>
+	<main><Game /></main>
 
 	<footer>
 		<a href="https://www.flaticon.com/free-icons/playing-cards" title="playing cards icons" target="_blank">Playing cards icons created by Freepik - Flaticon</a>
