@@ -26,7 +26,9 @@
 	main {
 		width: 100%;
 		min-height: calc(100vh - var(--footer-height));
+		height: auto;
 		padding: var(--padding);
+		overflow: auto;
 	}
 
 	main,

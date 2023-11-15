@@ -1,12 +1,13 @@
-<script lang="ts"></script>
+<script lang="ts">
+</script>
 
 <div id="coin">
-	<button>+</button>
+	<button id="plus">+</button>
 	<div id="info">
 		<div id="value">Value:</div>
 		<div id="amount">Amount:</div>
 	</div>
-	<button>-</button>
+	<button id="minus">-</button>
 </div>
 
 <style>
@@ -44,11 +45,22 @@
 		border: none;
 		background: var(--accent);
 		border-radius: 360px;
-		width: 1rem;
-		height: 1rem;
-		display: flex;
+		width: 1.2rem;
+		height: 1.2rem;
+		padding: 0;
+		/* display: flex;
 		align-content: center;
-		justify-content: center;
+		justify-content: center; */
 		cursor: pointer;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	#plus {
+		background: var(--green);
+	}
+
+	#minus {
+		background: var(--red);
 	}
 </style>
