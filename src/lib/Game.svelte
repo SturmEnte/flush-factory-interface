@@ -5,11 +5,25 @@
 
 <div id="game">
 	<div class="title">Bank</div>
-	<div id="bank">Total Balance:</div>
-	<div id="coins">
-		<Coin />
-		<button>Add Coins</button>
+	<div id="bank">
+		<div id="balance">Total Balance:</div>
+		<div>Coins:</div>
+		<div id="coins">
+			<Coin />
+			<Coin />
+			<Coin />
+			<Coin />
+			<Coin />
+			<Coin />
+			<Coin />
+			<Coin />
+			<Coin />
+			<Coin />
+			<Coin />
+			<button id="add-coin">+</button>
+		</div>
 	</div>
+
 	<div class="title">Players</div>
 	<div id="players">
 		<Player />
@@ -25,5 +39,19 @@
 	#players,
 	#bank {
 		width: 100%;
+	}
+
+	#coins {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#add-coin {
+		width: var(--coin-width);
+		height: var(--coin-height);
+		border: none;
+		background-color: var(--secondary-dark);
+		border-radius: var(--border-radius);
 	}
 </style>

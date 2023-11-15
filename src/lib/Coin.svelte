@@ -13,16 +13,19 @@
 	#coin {
 		background: var(--secondary-dark);
 		border-radius: var(--border-radius);
-		width: 80px;
-		height: 120px;
+		min-width: var(--coin-width);
+		height: var(--coin-height);
+		min-height: var(--coin-height);
+		max-height: var(--coin-height);
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		width: min-content;
-		height: min-content;
-		box-sizing: border-box;
-		padding: var(--padding-small);
+		/* width: min-content;
+		height: min-content; */
+		/* box-sizing: border-box;
+		padding: var(--padding-small); */
+		margin: 0 var(--padding-small) var(--padding-small) 0;
 	}
 
 	#info {
